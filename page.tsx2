@@ -1,0 +1,10 @@
+import UploadForm from "@/components/UploadForm";
+
+export default function UploadPage() {
+  return (
+    <div className="max-w-xl mx-auto p-10">
+      <h2 className="text-2xl font-semibold">Upload Your Website Info</h2>
+      <UploadForm />
+    </div>
+  );
+}
